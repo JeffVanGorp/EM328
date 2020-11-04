@@ -1,0 +1,65 @@
+.card {
+	min-width: 600px;
+}
+
+/* Tables CSS */
+table {
+	background-color: transparent;
+	color: #FFF;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	background-color: var(--primary-color);
+	color: #FFF;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-size: 1.15em;
+}
+
+th small {
+	font-size: 9px; 
+}
+
+td, th {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+tr {
+	/* height: 50px; */
+}
+
+td a {
+	color: var(--secondary-color);
+	display: block;
+	padding: 5px 10px;
+}
+th a {
+	padding-left: 0
+}
+
+th:first-of-type {
+	padding-left: 35px;
+}
+
+td:not(:first-of-type) a {
+	background-image: none !important;
+} 
+
+tr:nth-of-type(odd) {
+	background-color: #E6E6E6;
+}
+
+tr:hover td {
+	background-color: var(--secondary-color);
+	color: #000;
+}
+
+tr:hover td a {
+	color: #000;
+}
